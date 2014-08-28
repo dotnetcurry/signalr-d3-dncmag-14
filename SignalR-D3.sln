@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR-D3", "SignalR-D3\SignalR-D3.csproj", "{DCA6E783-C4CA-4E1C-9207-B6636612E2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA6E783-C4CA-4E1C-9207-B6636612E2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA6E783-C4CA-4E1C-9207-B6636612E2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA6E783-C4CA-4E1C-9207-B6636612E2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA6E783-C4CA-4E1C-9207-B6636612E2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

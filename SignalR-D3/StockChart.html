@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SignalR-D3</title>
+    <link type="text/css" href="Content/bootstrap.css" rel="stylesheet" />
+    <style type="text/css">
+        .axis path, .axis line {
+            fill: none;
+            stroke: #777;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-family: 'Arial';
+            font-size: 13px;
+        }
+
+        .tick {
+            stroke-dasharray: 1, 2;
+        }
+
+        .bar {
+            fill: FireBrick;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="page-header">
+            A sample chart application demonstrating usage of SignalR and D3
+        </h3>
+        <div class="row">
+            Companies: <select id="selCompanies"></select>
+        </div>
+        <div class="row">
+            <svg id="svgStockChart" width="1000" height="500"></svg>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-1.9.0.js"></script>
+    <script src="Scripts/jquery.signalR-2.1.0.js"></script>
+    <script src="SignalR/hubs"></script>
+    <script src="Scripts/d3.js"></script>
+    <script src="app/stockChartsScript.js"></script>
+</body>
+</html>
